@@ -99,9 +99,9 @@ const App: React.FC = () => {
         </h1>
         <div className="space-y-4 text-lg md:text-xl text-stone-600 leading-relaxed">
           <p>
-            I’d love to spend 2–3 days with you both between <strong className="text-warm-800">December 31st</strong> and <strong className="text-warm-800">January 4th</strong>.
+            I’d love to spend 2–3 days with you both between <strong className="text-warm-800">December 31st</strong> and <strong className="text-warm-800">January 3rd</strong>.
           </p>
-          <p>Here are three ideas we can choose from together.</p>
+          <p>Here are four ideas we can choose from together.</p>
           <p className="text-sm md:text-base text-stone-500 italic mt-2">
             (Yaya can join ANY of these if that would make it more fun)
           </p>
@@ -128,7 +128,7 @@ const App: React.FC = () => {
 
       {/* Cards Grid */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {TRIPS.map((trip) => (
             <TripCard
               key={trip.id}

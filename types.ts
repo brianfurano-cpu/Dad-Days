@@ -1,5 +1,5 @@
 
-export type TripId = 'nyc' | 'mystic' | 'la';
+export type TripId = 'nyc' | 'mystic' | 'la' | 'boston';
 export type Voter = 'Mayla' | 'Lennon';
 
 export interface TripOption {
